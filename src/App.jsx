@@ -7,23 +7,21 @@ function App() {
   return (
     <>
       <div>
-        <div className='flex flex-row bg-gray-300 pt-20 px-20'>
-          <div className='basis-1/2 py-20 px-32'>
-            <div className=' text-[50px] font-bold'>
+        <div className='flex flex-row bg-gray-300 '>
+          <div className='basis-1/2  pt-32 px-40'>
+            <div className=' text-[37px] font-bold'>
               What can Aritificial <br/>
               Intelegence do to <br/> 
               your Customer<br/> 
               Experience?
              </div>
              <div className=''>
-               <button className="btn btn-active btn-primary">Primary</button>
+               <button className="btn btn-active btn-primary rounded-full">Learn more</button>
              </div>
           </div>
-          <div className='basis-1/2 relative'>
-            <div>
-              <img className='absolute  right-[-100px] top-[-400px] scale-125' src="img/circle.png"/>
-              <img className='absolute' src="img/woman.png"/>
-            </div>
+          <div className='basis-1/2 bg-[url(img/circle.png)] bg-cover'>
+              {/* <img className='absolute right-[-80px]  top-[-300px] scale-125' src="img/circle.png"/> */}
+              <img className='' src="img/woman.png"/>
           </div>
         </div>
         <div className='bg-gray-100'>
@@ -102,7 +100,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='flex flex-row p-20 bg-[url(/img/4989.png)] bg-cover pb-60'>
+        <div className='flex flex-row  bg-[url(/img/4989.png)] bg-cover pb-60'>
           <div className='basis-1/2 px-20 pt-40'>
             <div className='text-[60px] text-gray-400'>Intelligent<br/> Contact Center</div>
             <div className='text-white py-8'>
