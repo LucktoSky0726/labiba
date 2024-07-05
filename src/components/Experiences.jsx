@@ -8,7 +8,7 @@ function Experiences() {
             <div className='flex justify-center text-[52px] font-bold gra-text'>
               AI Experiences
             </div>
-            <div className='flex justify-center text-lg'>
+            <div className='flex justify-center text-black text-lg'>
               Optimize journeys: streamline onboarding, robotic assistance, intuitive Voice, and refine feedback.
             </div>
             <div className='flex flex-row py-10 px-6 space-x-4'>
