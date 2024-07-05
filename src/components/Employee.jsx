@@ -28,7 +28,7 @@ function Employee() {
                   
                 </div>
               </div>
-              <div className='basis-1/4'  data-aos="fade-up" >
+              <div className='basis-1/4'  data-aos="fade-up" data-aos-delay="300">
                 <div>
                   <div>
                     <img src="/img/1329.png"/>
@@ -44,7 +44,7 @@ function Employee() {
                   
                 </div>
               </div>
-              <div className='basis-1/4'  data-aos="fade-up">
+              <div className='basis-1/4'  data-aos="fade-up" data-aos-delay="600">
                 <div>
                   <div>
                     <img src="/img/1330.png"/>
@@ -60,7 +60,7 @@ function Employee() {
                   
                 </div>
               </div>
-              <div className='basis-1/4'  data-aos="fade-up">
+              <div className='basis-1/4'  data-aos="fade-up" data-aos-delay="900">
                 <div>
                   <div>
                     <img src="/img/1331.png"/>
