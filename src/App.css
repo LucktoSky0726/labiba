@@ -1,0 +1,53 @@
+
+.gra-text {
+    --bg-size: 200%;
+    --color-one: hsl(246, 93%, 18%);
+    --color-two: hsl(19, 74%, 49%);
+    /* font-family: sans-serif; */
+    font-size: clamp(3rem, 25vmin, 8rem);
+    background: linear-gradient(
+        90deg,
+        var(--color-one),
+        var(--color-two),
+        var(--color-one)
+      )
+      0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+  }
+  .gra1-text {
+    --bg-size: 200%;
+    --color-one: hsl(245, 29%, 44%);
+    --color-two: hsl(244, 44%, 87%);
+    /* font-family: sans-serif; */
+    font-size: clamp(3rem, 25vmin, 8rem);
+    background: linear-gradient(
+        90deg,
+        var(--color-one),
+        var(--color-two),
+        var(--color-one)
+      )
+      0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .gra-text {
+      animation: move-bg 5s linear infinite;
+    }
+    @keyframes move-bg {
+      to {
+        background-position: var(--bg-size) 0;
+      }
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .gra1-text {
+      animation: move-bg 8s linear infinite;
+    }
+    @keyframes move-bg {
+      to {
+        background-position: var(--bg-size) 0;
+      }
+    }
+  }

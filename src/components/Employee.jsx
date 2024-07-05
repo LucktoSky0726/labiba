@@ -5,14 +5,14 @@ function Employee() {
     <div>
       <div className='bg-gray-100'>
           <div className='p-20'>
-            <div className='flex justify-center text-[52px] text-blue-900 font-bold'>
+            <div className='flex justify-center text-[52px] font-bold gra-text'>
               Virtual Employees
             </div>
             <div className='flex justify-center text-lg'>
               Seamlessly intergate reomote professionals for flexible solutions with steamlined processes.
             </div>
             <div className='flex flex-row py-10 px-6 space-x-2'>
-              <div className='basis-1/4'>
+              <div className='basis-1/4'  data-aos="fade-up" >
                 <div>
                   <div>
                     <img src="/img/1302.png"/>
@@ -28,7 +28,7 @@ function Employee() {
                   
                 </div>
               </div>
-              <div className='basis-1/4'>
+              <div className='basis-1/4'  data-aos="fade-up" >
                 <div>
                   <div>
                     <img src="/img/1329.png"/>
@@ -44,7 +44,7 @@ function Employee() {
                   
                 </div>
               </div>
-              <div className='basis-1/4'>
+              <div className='basis-1/4'  data-aos="fade-up">
                 <div>
                   <div>
                     <img src="/img/1330.png"/>
@@ -60,7 +60,7 @@ function Employee() {
                   
                 </div>
               </div>
-              <div className='basis-1/4'>
+              <div className='basis-1/4'  data-aos="fade-up">
                 <div>
                   <div>
                     <img src="/img/1331.png"/>

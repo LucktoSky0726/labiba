@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React, {useEffect} from 'react'
 export default function First() {
   return (
     <div>
@@ -11,17 +10,17 @@ export default function First() {
               your Customer<br/> 
               Experience?
              </div>
-             <div className='pb-12'>
+             <div className='py-12'>
                <button className="btn btn-active btn-primary rounded-full">Learn more</button>
              </div>
           </div>
-          <div className='basis-1/2 bg-[url(img/circle.png)] bg-cover relative'>
+          <div className='basis-1/2  bg-[url(img/back.png)] bg-cover bg-left-bottom bg-no-repeat relative '>
               {/* <img className='absolute right-[-80px]  top-[-300px] scale-125' src="img/circle.png"/> */}
-              <div className='absolute z-10 w-96 top-36'>
-                <div className="chat chat-start">
+              <div className='absolute z-20 w-96 top-40  left-[-40px]'>
+                <div className="chat chat-start" data-aos="fade-up" data-aos-delay="300">
                   <div className="chat-image avatar">
                     <div className="w-10 rounded-full bg-gray-100 px-3 py-2">
-                      <i class="fa-solid fa-robot text-primary"></i>
+                      <i className="fa-solid fa-robot text-primary"></i>
                     </div>
                   </div>
                   <div className="chat-bubble bg-gray-100 text-black">
@@ -29,7 +28,7 @@ export default function First() {
                     from BSF. How can I help you?
                   </div>
                 </div>
-                <div className="chat chat-end">
+                <div className="chat chat-end" data-aos="fade-up" data-aos-delay="600">
                   <div className="chat-image avatar">
                     <div className="w-10 rounded-full bg-primary px-3 py-2">
                      <i className='fa fa-user text-white'></i>
@@ -37,7 +36,7 @@ export default function First() {
                   </div>
                   <div className="chat-bubble chat-bubble-primary">Loans</div>
                 </div>
-                <div className="chat chat-start">
+                <div className="chat chat-start" data-aos="fade-up" data-aos-delay="900">
                   <div className="chat-image avatar">
                     <div className="w-10 rounded-full bg-gray-100 px-3 py-2">
                       <i class="fa-solid fa-robot text-primary"></i>
@@ -47,7 +46,7 @@ export default function First() {
                     Which loan type do you seek?
                   </div>
                 </div>
-                <div className="chat chat-end">
+                <div className="chat chat-end" data-aos="fade-up" data-aos-delay="1200">
                   <div className="chat-image avatar">
                     <div className="w-10 rounded-full bg-primary px-3 py-2">
                      <i className='fa fa-user text-white'></i>
@@ -56,7 +55,8 @@ export default function First() {
                   <div className="chat-bubble chat-bubble-primary">Personal loan</div>
                 </div>
               </div>
-              <img className='absolute z-0 left-16' src="img/woman.png"/>
+              <img className='absolute z-10 bottom-0' src="img/woman.png"/>
+              {/* <img className='absolute z-0 bottom-0' src="img/back.png"/> */}
           </div>
         </div>
     </div>

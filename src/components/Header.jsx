@@ -18,8 +18,8 @@ export default function Header() {
             <div className='basis-1/4 space-x-3'>
                 <select className="select select-ghost">
                 <option>En</option>
-                <option>AA</option>
-                <option>BB</option>
+                <option>FR</option>
+                <option>ES</option>
                 </select>
                 <button className="btn btn-outline btn-primary rounded-full">Free Trial</button>
             </div>

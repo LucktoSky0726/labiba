@@ -1,11 +1,13 @@
 import React from 'react'
 
+
 function Video() {
+
   return (
     <div>
         <div className='flex flex-row  bg-[url(/img/4989.png)] bg-cover pb-60'>
           <div className='basis-1/2 px-20 pt-40'>
-            <div className='text-[60px] text-gray-400'>Intelligent<br/> Contact Center</div>
+            <div className='text-[60px] gra1-text'>Intelligent<br/> Contact Center</div>
             <div className='text-white py-8'>
               Upgrade service with our Intelligent Contact Center, integrating <br/>
               omnichannel support, chatbots, live chat, knowledge bank, <br/>
