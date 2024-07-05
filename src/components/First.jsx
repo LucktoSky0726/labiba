@@ -14,7 +14,7 @@ export default function First() {
                <button className="btn btn-active btn-primary rounded-full">Learn more</button>
              </div>
           </div>
-          <div className='basis-1/2  bg-[url(img/back.png)] bg-cover bg-left-bottom bg-no-repeat relative '>
+          <div className='basis-1/2  bg-[url(/img/back.png)] bg-cover bg-left-bottom bg-no-repeat relative '>
               {/* <img className='absolute right-[-80px]  top-[-300px] scale-125' src="img/circle.png"/> */}
               <div className='absolute z-20 w-96 top-40  left-[-40px]'>
                 <div className="chat chat-start" data-aos="fade-up" data-aos-delay="300">
