@@ -8,10 +8,10 @@ function Employee() {
             <div className='flex justify-center text-[52px] font-bold gra-text'>
               Virtual Employees
             </div>
-            <div className='flex justify-center text-lg'>
+            <div className='flex justify-center text-lg text-black'>
               Seamlessly intergate reomote professionals for flexible solutions with steamlined processes.
             </div>
-            <div className='flex flex-row py-10 px-6 space-x-2'>
+            <div className='flex flex-row text-black py-10 px-6 space-x-2'>
               <div className='basis-1/4'  data-aos="fade-up" >
                 <div>
                   <div>

@@ -5,7 +5,7 @@ function Experiences() {
     <div>
       <div className='bg-gray-100'>
           <div className='p-20'>
-            <div className='flex justify-center text-[52px] text-blue-900 font-bold'>
+            <div className='flex justify-center text-[52px] font-bold gra-text'>
               AI Experiences
             </div>
             <div className='flex justify-center text-lg'>
