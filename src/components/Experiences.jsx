@@ -12,7 +12,7 @@ function Experiences() {
               Optimize journeys: streamline onboarding, robotic assistance, intuitive Voice, and refine feedback.
             </div>
             <div className='flex flex-row py-10 px-6 space-x-4'>
-              <div className='basis-1/3 bg-[url(/img/01.png)] h-[690px] bg-no-repeat'>
+              <div className='basis-1/3 bg-[url(/img/01.png)] bg-cover h-[522px] bg-no-repeat'>
                   <div className='py-12 px-20'>
                     <div>
                       <button className="btn rounded-full text-white bg-gray-400/40">Chatbot static</button>
@@ -22,7 +22,7 @@ function Experiences() {
                     </div>
                   </div>
               </div>
-              <div className='basis-1/3 bg-[url(/img/02.png)] h-[690px] bg-no-repeat'>
+              <div className='basis-1/3 bg-[url(/img/02.png)] bg-cover h-[522px] bg-no-repeat'>
                   <div className='py-12 px-20'>
                     <div>
                       {/* <button className="btn rounded-full text-white bg-gray-400/40">Chatbot static</button> */}
@@ -32,7 +32,7 @@ function Experiences() {
                     </div>
                   </div>
               </div>
-              <div className='basis-1/3 bg-[url(/img/03.png)] h-[690px] bg-no-repeat space-x-4'>
+              <div className='basis-1/3 bg-[url(/img/03.png)] bg-cover h-[522px] bg-no-repeat space-x-4'>
                   <div className='py-12 px-20'>
                     <div>
                       <button className="btn rounded-full text-white bg-gray-400/40">Chatbot static</button>
@@ -44,7 +44,7 @@ function Experiences() {
               </div>            
             </div>
             <div className='flex flex-row py-10 px-6 space-x-4'>
-              <div className='basis-1/3 bg-[url(/img/04.png)] h-[690px] bg-no-repeat'>
+              <div className='basis-1/3 bg-[url(/img/04.png)] bg-cover h-[522px] bg-no-repeat'>
                   <div className='py-12 px-20'>
                     <div>
                       <button className="btn rounded-full text-white bg-gray-400/40">Chatbot static</button>
@@ -54,7 +54,7 @@ function Experiences() {
                     </div>
                   </div>
               </div>
-              <div className='basis-1/3 bg-[url(/img/05.png)] h-[690px] bg-no-repeat'>
+              <div className='basis-1/3 bg-[url(/img/05.png)] bg-cover h-[522px] bg-no-repeat'>
                   <div className='py-12 px-20'>
                     <div>
                       <button className="btn rounded-full text-white bg-gray-400/40">Chatbot static</button>
@@ -64,7 +64,7 @@ function Experiences() {
                     </div>
                   </div>
               </div>
-              <div className='basis-1/3 bg-[url(/img/06.png)] h-[690px] bg-no-repeat'>
+              <div className='basis-1/3 bg-[url(/img/06.png)] bg-cover h-[522px] bg-no-repeat'>
                   <div className='py-12 px-20'>
                     <div>
                       <button className="btn rounded-full text-white bg-gray-400/40">Chatbot static</button>
