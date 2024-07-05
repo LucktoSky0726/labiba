@@ -5,7 +5,7 @@ export default function First() {
       <div className='flex flex-row bg-gray-300 '>
           <div className='basis-1/2  pt-32 px-40'>
             <div className=' text-[37px] font-bold'>
-              What can Aritificial <br/>
+              IWhat can Aritificial <br/>
               Intelegence do to <br/> 
               your Customer<br/> 
               Experience?
