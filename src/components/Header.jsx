@@ -3,7 +3,7 @@ import React from 'react'
 export default function Header() {
   return (
     <div>
-        <div className='flex flex-row p-5 '>
+        <div className='flex flex-row p-2 '>
             <div className='basis-1/4 px-20'>
                 <img src='/img/labiba.png'/>
             </div>
